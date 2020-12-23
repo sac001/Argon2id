@@ -1,0 +1,5 @@
+Compilation under Windows: go build -ldflags -H=windowsgui
+
+You can change the icon by creating your own and then run:
+
+fyne bundle icon.png > icon.go
