@@ -3,3 +3,10 @@ Compilation under Windows: go build -ldflags -H=windowsgui
 You can change the icon by creating your own and then run:
 
 fyne bundle icon.png > icon.go
+Please note: I used in the code at line 29 the same parameters
+as described in Go's crypto package description, for Argon2id:
+
+https://godoc.org/golang.org/x/crypto/argon2
+
+Please finetune the parameters to your machine specs and your
+requirements.
